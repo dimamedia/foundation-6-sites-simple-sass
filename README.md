@@ -42,7 +42,7 @@ There is several versions of jquery to choose:
 
 ### Foundation
 
-Minimum requirements for usage are `js/foundation/foundation.core.js` and `js/foundation/foundation.util.mediaQuery.js`.
+Minimum requirements for usage are `js/foundation/foundation.core.js`, `js/foundation/foundation.util.mediaQuery.js` and `js/app.js` files.
 Find requirements of each Foundation's feature in [the documentation](http://foundation.zurb.com/sites/docs/) and add needed files manually or with the loader.
 
 ## Motion-ui
@@ -60,7 +60,7 @@ In `scss/app.scss` file uncomment lines below to enable:
 ```
 Or use `scss/motion-ui.scss` as a standalone plugin.
 
-Add js-file:
+Include js-file:
 ```html
 <script src="js/motion-ui/motion-ui.js"></script>
 ```
