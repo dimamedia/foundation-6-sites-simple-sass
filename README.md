@@ -43,7 +43,7 @@ There is several versions of jquery to choose:
 ### Foundation
 
 Minimum requirements for usage are `js/foundation/foundation.core.js` and `js/foundation/foundation.util.mediaQuery.js`.
-Find requirements of each Foundation's feature in [the documents](http://foundation.zurb.com/sites/docs/) and add needed files manually or with the loader.
+Find requirements of each Foundation's feature in [the documentation](http://foundation.zurb.com/sites/docs/) and add needed files manually or with the loader.
 
 ## Motion-ui
 
