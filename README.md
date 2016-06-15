@@ -22,7 +22,6 @@ Download or clone this package.
 ### Manual config setup
 
 - Use `scss/app.scss` to select required foundation features and add own stuff.
- - Uncomment `@import 'motion-ui/motion-ui';` to add Motion-ui features
  - Set `$flex: true;` to enable flexbox-mode.
 - Edit `scss/_settings.scss` to modify foundation elements.
  - If RTL mode required set `$global-text-direction: rtl;`
