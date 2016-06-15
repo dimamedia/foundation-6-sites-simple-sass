@@ -1,4 +1,4 @@
-# Purified Foundation for Sites
+# Purified Foundation for Sites 6
 
 ## Foundation?
 
@@ -10,6 +10,10 @@ Cleaned Foundation-sites 6 from all dependencies. Pure scss base for compiling w
 Separated javascript files to combine only needed features with user's preferred script loader or combiner minifier.
 
 Motion-ui and What-input is included to this pack and can be used if needed.
+
+### Foundation version?
+
+This repository forked from zurb/foundation-sites while version 6.2.3.
 
 ## Getting Started
 
@@ -23,6 +27,10 @@ Download or clone this package.
 - Edit `scss/_settings.scss` to modify foundation elements.
  - If RTL mode required set `$global-text-direction: rtl;`
 - Compile with preferred [sass](http://sass-lang.com/install) compiler.
+
+### Documentation
+
+The documentation can be found at <https://foundation.zurb.com/sites/docs>.
 
 ## Javascript files
 
@@ -63,6 +71,3 @@ Read [What-input documentation](https://github.com/ten1seven/what-input).
 <script src="assets/scripts/what-input.js"></script>
 ```
 
-## Documentation
-
-The documentation can be found at <https://foundation.zurb.com/sites/docs>.
