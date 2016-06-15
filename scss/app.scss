@@ -2,11 +2,24 @@
 
 @import 'settings';
 @import 'foundation/foundation';
-@import 'motion-ui/motion-ui';
+// @import 'motion-ui/motion-ui';
+
+
+$flex: false; // Set to true to enable flex-mode
+
+@if $flex {
+	$global-flexbox: true !global;
+}
 
 @include foundation-global-styles;
-@include foundation-grid;
-// @include foundation-flex-grid;
+
+@if not $flex {
+	@include foundation-grid;
+}
+@else {
+	@include foundation-flex-grid;
+}
+
 @include foundation-typography;
 @include foundation-button;
 @include foundation-forms;
@@ -44,7 +57,10 @@
 // @include foundation-top-bar;
 @include foundation-visibility-classes;
 @include foundation-float-classes;
-// @include foundation-flex-classes;
+
+@if $flex {
+	@include foundation-flex-classes;
+}
 
 @include motion-ui-transitions;
 @include motion-ui-animations;
