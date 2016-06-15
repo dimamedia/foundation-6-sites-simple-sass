@@ -52,14 +52,14 @@ A Sass library for creating CSS transitions and animations from your friends at 
 
 ### Usage
 
-Uncomment to enable:
+In `scss/app.scss` file uncomment lines below to enable:
 ```
 @import 'motion-ui/motion-ui';
 
 @include motion-ui-transitions;
 @include motion-ui-animations;
 ```
-in `scss/app.scss` or use `scss/motion-ui.scss` as a standalone plugin.
+Or use `scss/motion-ui.scss` as a standalone plugin.
 
 Add js-file:
 ```html
